@@ -4,18 +4,15 @@
 * _isupper - checks for uppercase charater
 * @c: is the parameter to be checked
 *
-* Return: returns c when successful
+* Return: returns 1 when successful else 0
 */
 
 int _isupper(int c)
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (0);
-	}
-	else
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
-	return (c);
+	else
+		return (0);
 }
