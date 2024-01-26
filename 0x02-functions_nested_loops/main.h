@@ -1,10 +1,5 @@
 int _putchar(char c);
 void printname(void);
+void print_alphabet(void);
 
 
-
-#include <stdio.h>
-void printname(void)
-{
-	printf("_putchar\n");
-}
