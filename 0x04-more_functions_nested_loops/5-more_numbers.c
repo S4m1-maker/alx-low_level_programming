@@ -27,14 +27,3 @@ void more_numbers(void)
 		p_nl();
 	}
 }
-
-/**
- * p_nl - prints a new line
- *
- * Return: return is void
- */
-
-void p_nl(void)
-{
-	_putchar('\n');
-}
