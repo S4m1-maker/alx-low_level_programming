@@ -1,6 +1,6 @@
 # 0x05. C - Pointers, arrays and strings Project
 
-````
+----
 
 ## 0. 98 Battery st.
 
@@ -8,6 +8,6 @@
 
     * Prototype: void reset_to_98(int *n);
 
-````
+----
 
 * 
