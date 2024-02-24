@@ -1,6 +1,6 @@
 # 0x05. C - Pointers, arrays and strings Project
 
-````mkdown
+````markdown
 
 ## 0. 98 Battery st.
 
