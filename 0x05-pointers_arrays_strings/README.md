@@ -58,6 +58,18 @@
     * putchar new line
 ```
 
+## 4. I can only go one way. I've not got a reverse gear
 
+* Write a function that prints a string, in reverse, followed by a new line.
 
+    * Prototype: void print_rev(char \*s);
+
+```markdown
+* Declare and define the function
+    * Declare int i, len variables
+    * find the length of the string s
+    * Iterate through the string from last character less the '\0'
+    * i--
+    * putchar s[i]
+```
 
