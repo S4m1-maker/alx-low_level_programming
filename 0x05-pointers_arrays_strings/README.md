@@ -1,6 +1,6 @@
 # 0x05. C - Pointers, arrays and strings Project
 
-========================================================================================================
+========================================================================================
 
 ## 0. 98 Battery st.
 
@@ -26,6 +26,21 @@
     * Assign '*a' to 'p'
     * Assign '*b' to '*a'
     * Assign 'p' to '*b'
+```
+
+## 2. This report, by its very length, defends itself against the risk of being read
+
+* Write a function that returns the length of a string.
+
+    * Prototype: int \_strlen(char \*s);
+
+```markdown
+* Declare and define the fucntion
+    * Declare int len variable
+    * Iterate through the string s
+    * len++
+    * s++
+    * return len
 ```
 
 
