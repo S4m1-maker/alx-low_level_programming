@@ -64,7 +64,7 @@
 
     * Prototype: void print_rev(char \*s);
 
-```
+```markdown
 * Declare and define the function
     * Declare int i, len variables
     * find the length of the string s
