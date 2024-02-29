@@ -73,3 +73,20 @@
     * putchar s[i]
 ```
 
+## 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+
+* Write a function that reverses a string.
+
+    * Prototype: void rev_string(char \*s);
+
+```markdown
+* Declare and define the function
+    * Declare int len, temp, i, j
+    * find the length of the string s
+    * Iterate through the string, from the start and from the end, to the middle of the string
+    * i++
+    * j--
+    * Swap the character at the start of the string with the character at the end of the string
+```
+
+
