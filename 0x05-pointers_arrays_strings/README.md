@@ -95,7 +95,7 @@
 
     * Prototype: void puts2(char \*str);
 
-```
+```markdown
 * Declare and define the function
     * Declare int i
     * Iterate through the string
@@ -103,6 +103,26 @@
     * putchar str
     * str += 2
     * putchar new line
+```
+
+## 7. Winning is only half of it. Having fun is the other half
+
+* Write a function that prints half of a string, followed by a new line.
+
+    * Prototype: void puts_half(char \*str);
+    * The function should print the second half of the string
+    * If the number of characters is odd, the function should print the last n characters of the string,    where n = (length_of_the_string - 1) / 2
+
+```markdown
+* Declare and the function
+    * Declare int i, len variables
+    * Find the length of the string
+    * Iterate through the string
+    * i++
+    * putchar string from half of string length
+    * if string length is odd
+        * putchar string from (length - 1)/2
+    * putchar newline
 ```
 
 
