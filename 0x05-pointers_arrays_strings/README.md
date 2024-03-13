@@ -125,4 +125,27 @@
     * putchar newline
 ```
 
+## 8. Arrays are not pointers
+
+* Write a function that prints n elements of an array of integers, followed by a new line.
+
+    * Prototype: void print_array(int \*a, int n);
+    * where n is the number of elements of the array to be printed
+    * Numbers must be separated by comma, followed by a space
+    * The numbers should be displayed in the same order as they are stored in the array
+    * You are allowed to use printf
+
+```markdown
+* Declare and define the fucntion
+    * Declare int i variable
+    * Iterate through the array
+    * i++
+    * if i is equal to the last n element
+        * print element without comma and space
+    * else
+        * print the elements, separated by comma and space
+    * print new line
+```
+
+
 
