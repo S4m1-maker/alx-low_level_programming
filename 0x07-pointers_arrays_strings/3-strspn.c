@@ -11,13 +11,15 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	char *ptr = s;
+	unsigned int count;
 
 	while (ptr && _strchr(accept, *ptr))
 	{
 		ptr++;
 	}
+	count = ptr - s;
 
-	return (ptr - s);
+	return (count);
 }
 
 
