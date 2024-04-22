@@ -10,37 +10,25 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	char *ptr = s;
-	unsigned int count;
+	int i;
+	unsigned int count = 0;
 
-	while (ptr && _strchr(accept, *ptr))
+	while (*s)
 	{
-		ptr++;
-	}
-	count = ptr - s;
-
-	return (count);
-}
-
-
-
-/**
- * _strchr - locates a character in a string
- * @s: is the string parameter
- * @c: is the character to locate
- *
- * Return: return a pointer to s or NULL if the character is not found
- */
-
-char *_strchr(char *s, char c)
-{
-	while (*s != '\0' && *s != c)
-	{
+		i = 0;
+		while (accept[i] != '\0')
+		{
+			if (accept[i] == *s)
+			{
+				count++;
+				break;
+			}
+			else if (accept[i + 1] == '\0')
+				return (count);
+			i++;
+		}
 		s++;
 	}
 
-	if (*s == c)
-		return (s);
-	else
-		return (NULL);
+	return (count);
 }
